@@ -3,13 +3,13 @@
 char s(n)
 {
 	if (n==1)
-	return a;
+	return 1;
 	
 	if(n==2)
-	retun b;
+	retun 2;
 	
 	if(n==3)
-	return c;
+	return 3;
 	
 	return s(n-1)+s(n-2)+s(n-3);
 	
