@@ -1,11 +1,13 @@
 #include<stdio.h>
-int average(int *p,int n)
-{   int i,sum=0;
+float average(int *p,int n)
+{   int i;
+	float sum=0;
 	for(i=0;i<n;i++)
 	{
 		sum=sum+*(p+i);
 	}
-	return sum/n;
+	
+	return (float)sum/n;
 }
  int main()
  {  int i,n;
@@ -22,8 +24,8 @@ int average(int *p,int n)
  		
 	}
 	
-	int avg= average(a,n);
-	printf("average of the given numbers is %d",avg);
+	float avg= average(a,n);
+	printf("average of the given numbers is %f",avg);
 	return 0;
  	
  }

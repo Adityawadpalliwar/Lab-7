@@ -6,7 +6,8 @@ int main(){
     char string[50];
  
     printf("enter the string1: ");
-    gets(string);
+    fgets(string,50,stdin);
+    string[strlen(string)-1]='\0';
     
     char *p=string;
     int n = strlen(string);

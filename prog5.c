@@ -6,7 +6,7 @@ char s(n)
 	return 1;
 	
 	if(n==2)
-	retun 2;
+	return 2;
 	
 	if(n==3)
 	return 3;
@@ -18,7 +18,7 @@ char s(n)
 main()
 {  int n;
 	printf("enter the value of n: ");
-	scanf("%d",&n)
+	scanf("%d",&n);
 	
 	int y=s(n);
 	
