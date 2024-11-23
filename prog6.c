@@ -7,13 +7,13 @@ struct customer
 } bank[10];
 int transaction(int acc,int type,int amount,struct customer bank[10])
 {
-    (if type==0)
+    if (type==0)
     {
        return 1; 
     }
     if(type==1)
     {
-        if (int customer.balance< amount)
+        if ( bank[i].balance< amount)
         return 0;
         else
         return 1;
@@ -24,7 +24,7 @@ int transaction(int acc,int type,int amount,struct customer bank[10])
 int main()
 
 {   struct customer bank[10];
-
+ int i;
 
    printf("enter your details ");
     for(i=0;i<5;i++)

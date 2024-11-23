@@ -12,7 +12,7 @@ int main()
     printf("enter the 10 elements of first array\n");
     for(i=0;i<10;i++)
     {
-        scanf("%d",&*(a+i));
+        scanf("%d",&(*(a+i)));
     }
 
    for(i=0;i<10;i++)
